@@ -4,6 +4,17 @@ import { Platform } from '@ionic/angular';
 import { SplashScreen } from '@ionic-native/splash-screen/ngx';
 import { StatusBar } from '@ionic-native/status-bar/ngx';
 
+
+import {HomePage} from './home/home.page';
+
+import {AboutPage} from './about/about.page';
+
+
+import {ContactPage} from './contact/contact.page';
+
+
+import {MenuPage} from './menu/menu.page';
+
 @Component({
   selector: 'app-root',
   templateUrl: 'app.component.html'
